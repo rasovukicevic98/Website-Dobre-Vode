@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restoran Dobre Vode</title>
+    <title>Bootsrap vjezbe</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="styles.css" type="text/css">
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
 
 </head>
 <body>
+    <center class="slikaneka d-flex justify-content-center">
+        <img src="dobrevode.jpg" class=" rounded " alt="...">
+    </center>
+    
+    
+    <p class="imeRestorana">RESTORAN DOBRE VODE</p>
+        
+      
     <nav class="navigationbar navbar navbar-expand-md   ">
         <div class="container-xxl">
             <a href="#intro" class="navbar-brand">
@@ -52,7 +63,8 @@
             </div>
         </div>
     </nav>
-
+    <p style="background-image: url('dobrevode.jpg');"> 
+    
     <section id="slike" class=" mt-5 d-flex justify-content-center">
         <div class="container">
             
@@ -196,14 +208,15 @@
             
         </div>
       </section>
+
       <section id="jelovnik">
         <div class="container-md">
             <h2 class="meni">MENU</h2>
             
-            <div class="row my-5 g-5  align-items-center">
+            <!-- <div class="row my-5 g-5  align-items-center">
                 <div class="col-6 col-lg-4">
                     <img src="/assets/CICVARA .jpg" class="img-fluidk" alt="">
-                </div>
+                </div> -->
 
                 <div class="accordion justify-content-center" id="chapters">
                     <div class="accordion-item">
@@ -1137,48 +1150,57 @@
 
         
       </section>
-    
 
       <section id="kontakt">
-        <div class="container">
-         <div class="row kontakt">
-             <p>KONTAKT</p>
-             <div class="col-xs-3 sadrzaj justify-content-center d-flex" >
-                 <div class="card kontaktcard justify-content-center " style="width: 18rem;">
-                     <i class="bi bi-geo-alt"></i>
-                     <div class="card-body">
-                         <h4 class="card-title">Adresa</h5>
-                         <p class="card-text">Kolasin bb</p>
-                         
-                 </div>
-               </div>
-             </div>
-             <div class="col-xs-3 sadrzaj justify-content-center d-flex " >
-                 <div class="card kontaktcard" style="width: 18rem;">
-                     <i class="bi bi-telephone"></i>
-                     <div class="card-body">
-                         <h4 class="card-title">Telefon</h5>
-                         <p class="card-text">+382 (0)67 233 001</p>
-                         
-                 </div>
-               </div>
-             </div>
-             <div class="col-xs-3 sadrzaj justify-content-center d-flex " >
-                 <div class="card kontaktcard" style="width: 18rem;">
-                     <i class="bi bi-envelope"></i>
-                     <div class="card-body">
-                         <h4 class="card-title">Email</h5>
-                         <p class="card-text"> dobrevodekolasin@gmail.com</p>
-                         
-                 </div>
-               </div>
-             </div>
- 
- 
-         </div>
+       <div class="container">
+        <div class="row kontakt">
+            <p>KONTAKT</p>
+            <div class="col-xs-3 sadrzaj justify-content-center d-flex" >
+                <div class="card kontaktcard justify-content-center " style="width: 18rem;">
+                    <i class="bi bi-geo-alt"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Adresa</h5>
+                        <p class="card-text">Kolasin bb</p>
+                        
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3 sadrzaj d-flex " >
+                <div class="card kontaktcard" style="width: 18rem;">
+                    <i class="bi bi-telephone"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Telefon</h5>
+                        <p class="card-text">+382 (0)67 233 001</p>
+                        
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3 sadrzaj d-flex " >
+                <div class="card kontaktcard" style="width: 18rem;">
+                    <i class="bi bi-envelope"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Email</h5>
+                        <p class="card-text"> dobrevodekolasin@gmail.com</p>
+                        
+                </div>
+              </div>
+            </div>
+
+
         </div>
-         
- 
-       </section>
+       </div>
+        
+
+      </section>
+
+      
+      <section id="lokacija" >
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.2702069474403!2d19.53612857654797!3d42.88824550156843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134d62eddd1b7243%3A0xe0e114344b15e608!2sRestoran%20Dobre%20Vode!5e0!3m2!1ssr!2srs!4v1707507724774!5m2!1ssr!2srs" frameborder="0"
+              style="border:0" allowfullscreen></iframe>
+          </div>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
