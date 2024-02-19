@@ -2,4 +2,207 @@ body {
     background-image: url('/assets/daske5.jpg');
     
   } 
+  .meni{
+    color: rgb(124, 23, 23);
+    font-size: 70px;
+    
+  }
+  .redMenija{
+    display: flex;
+	
+	/* Make a horizontal flexbox (the default) */
+	flex-direction: row;
+	
+	/* The important part: vertically center the items */
+	align-items: center;
+   text-align: center;
+   text-align: center;
+   font-style: book antiqua;
+    background-color: rgb(131, 38, 38); 
+   border: 1px dotted black;
+  }
+  [class^="accordion-header"] {
+    background-color: rgb(205,170,125);
+    
+  }
+  [class^="accordion-body"] {
+    background-color: rgb(131, 38, 38);
+    color: white;
+    font-weight: bold;
+    
+  }
+  .pice{
+    text-align: center;
+    align-items: center;
+  }
+  .imeRestorana{
+    color: rgb(47, 162, 126);
+    font-weight: bold;
+    font-size: 300%;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+    
+  [class^="logoColor"] {
+    color: rgb(159, 29, 29);
+    font-weight: bold;
+    font-size: 300%;
+    align-content: center;
+    text-align: center;
+    
+    
+  }
+  [class^="col-"] {
+    color: white;
+    font-family: "Pacifico";
+    align-content: center;
+    text-align: center;
+    
+    
+  }
+  .naziv{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .cijena{
+    text-align: center;
+  }
+  .sadrzaj{
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    
+    padding-bottom: 10px;
+    align-self: center;
+  }
+  .kontakt{
+    display: felx;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+    align-content: center;
+    color: #b11616;
+    align-items: center;
+    align-self: auto;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  } 
+  .body{
+    justify-content: center;
+  }
+  [class^="nav-item"] {
+    
+    color: rgb(3, 1, 1) ;
+    font-weight: bold;
+    
+  }
   
+  [class^="nav-link"] {
+    color: white;
+    color: rgb(180, 28, 28) ;
+    font-size: 25px;
+    
+  }
+
+  [class^="accordion-button"] {
+   background-color: rgb(205,170,125);
+   
+    
+  }
+  
+  .card-body{
+   
+    color: #8b2727;
+    opacity: 0.9;
+    background-color: rgba(20, 4, 4, 0.212);
+    
+    
+  }
+  .card{
+    
+     color: rgb(117, 37, 37);
+     font-weight: bold; 
+    
+    
+    
+    
+  }
+  .kontaktcard{
+    font-size: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    align-content: center;
+    
+    border-color: red;
+    -webkit-box-shadow: 0px 0px 18px 20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px 20px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 20px rgba(0,0,0,0.75);
+  }
+  .cijena{
+   
+   
+  }
+  .meni{
+    text-align: center;
+  }
+  
+  .slika img{
+    width:80%;
+    margin-left: 10%;
+  }
+  .slikaneka img{
+    width: 80%;
+  }
+  .navbar-default{
+    color: blue;
+    background-color: blue;
+  }
+  .navbar-brand{
+    max-width: 11vw; /* find suitable value for you */
+    display: block;
+    width: 100%;
+    font-size: 120%;
+    align-items: center;
+  }
+  .logo{
+    color: blue;
+    
+  }
+  .slovo{ 
+    color: white;
+    font-size: large;
+  }
+  .map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    padding-left: 20%;
+    padding-right: 20%;
+    left: 10%;
+    
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:80%;
+    position:absolute;
+  }
